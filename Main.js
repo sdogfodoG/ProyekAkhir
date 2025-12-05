@@ -17,7 +17,7 @@ function right() {
     }
 }
 
-function left() {
+function left2() {
     for(let i = 0; i < length2; i++) {
         if(document.getElementById("Animal2").src.endsWith("2-" + i + ".jpg")) {
             document.getElementById("Animal2").src = "2-" + ((i - 1 + length2) % length2)+ ".jpg";
@@ -25,7 +25,7 @@ function left() {
         }
     }
 }
-function right() {
+function right2() {
     for(let i = 0; i < length2; i++) {
         if(document.getElementById("Animal2").src.endsWith("2-" + i + ".jpg")) {
             document.getElementById("Animal2").src = "2-" + ((i + 1 + length2) % length2)+ ".jpg";
@@ -34,7 +34,7 @@ function right() {
     }
 }
 
-function left() {
+function left3() {
     for(let i = 0; i < length; i++) {
         if(document.getElementById("Animal3").src.endsWith("3-" + i + ".jpg")) {
             document.getElementById("Animal3").src = "3-" + ((i - 1 + length) % length)+ ".jpg";
@@ -42,7 +42,7 @@ function left() {
         }
     }
 }
-function right() {
+function right3() {
     for(let i = 0; i < length; i++) {
         if(document.getElementById("Animal3").src.endsWith("3-" + i + ".jpg")) {
             document.getElementById("Animal3").src = "3-" + ((i + 1 + length) % length)+ ".jpg";
@@ -51,7 +51,7 @@ function right() {
     }
 }
 
-function left() {
+function left4() {
     for(let i = 0; i < length2; i++) {
         if(document.getElementById("Animal4").src.endsWith("4-" + i + ".jpg")) {
             document.getElementById("Animal4").src = "4-" + ((i - 1 + length2) % length2)+ ".jpg";
@@ -59,7 +59,7 @@ function left() {
         }
     }
 }
-function right() {
+function right4() {
     for(let i = 0; i < length2; i++) {
         if(document.getElementById("Animal4").src.endsWith("4-" + i + ".jpg")) {
             document.getElementById("Animal4").src = "4-" + ((i + 1 + length2) % length2)+ ".jpg";
@@ -68,7 +68,7 @@ function right() {
     }
 }
 
-function left() {
+function left6() {
     for(let i = 0; i < length; i++) {
         if(document.getElementById("Animal6").src.endsWith("6-" + i + ".jpg")) {
             document.getElementById("Animal6").src = "6-" + ((i - 1 + length) % length)+ ".jpg";
@@ -76,7 +76,7 @@ function left() {
         }
     }
 }
-function right() {
+function right6() {
     for(let i = 0; i < length; i++) {
         if(document.getElementById("Animal6").src.endsWith("6-" + i + ".jpg")) {
             document.getElementById("Animal6").src = "6-" + ((i + 1 + length) % length)+ ".jpg";
@@ -85,7 +85,7 @@ function right() {
     }
 }
 
-function left() {
+function left8() {
     for(let i = 0; i < length2; i++) {
         if(document.getElementById("Animal8").src.endsWith("8-" + i + ".jpg")) {
             document.getElementById("Animal8").src = "8-" + ((i - 1 + length2) % length2)+ ".jpg";
@@ -93,7 +93,7 @@ function left() {
         }
     }
 }
-function right() {
+function right8() {
     for(let i = 0; i < length2; i++) {
         if(document.getElementById("Animal8").src.endsWith("8-" + i + ".jpg")) {
             document.getElementById("Animal8").src = "8-" + ((i + 1 + length2) % length2)+ ".jpg";
@@ -102,7 +102,7 @@ function right() {
     }
 }
 
-function left() {
+function left9() {
     for(let i = 0; i < length2; i++) {
         if(document.getElementById("Animal9").src.endsWith("9-" + i + ".jpg")) {
             document.getElementById("Animal9").src = "9-" + ((i - 1 + length2) % length2)+ ".jpg";
@@ -110,7 +110,7 @@ function left() {
         }
     }
 }
-function right() {
+function right9() {
     for(let i = 0; i < length2; i++) {
         if(document.getElementById("Animal9").src.endsWith("9-" + i + ".jpg")) {
             document.getElementById("Animal9").src = "9-" + ((i + 1 + length2) % length2)+ ".jpg";
