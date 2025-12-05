@@ -2,11 +2,12 @@ body{
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    background-color: brown;
+    background-color: #E7EFC7;
+    font-family: Titillium Web;
 }
 
 .nav-container{
-    background-color: green;
+    background-color: #AEC8A4;
     padding: 50px 20px 50px 25px;
     margin: 5px;
     margin-right: -6px;
@@ -21,26 +22,7 @@ body{
 }
 
 .nav-container.scrolled {
-    background: linear-gradient(to bottom, green 0%, green 50%, transparent 100%);
-}
-
-.sign-in{
-    float: right;
-    height: 40px;
-    width: 80px;
-    border: 1px solid red;
-    margin-top: -30px;
-    margin-right: 15px;
-    border-radius: 15%;
-    font-family: Titillium Web;
-    font-size: 16px;
-    opacity: 1;
-    transition: 0.3s;
-}
-
-.sign-in.hide {
-    opacity: 0;
-    pointer-events: none;
+    background: linear-gradient(to bottom, #AEC8A4 0%, #AEC8A4 50%, transparent 100%);
 }
 
 .nav-button{
@@ -48,7 +30,7 @@ body{
     margin: 5px;
     margin-left: 15px;
     padding: 10px;
-    background-color: blue;
+    background-color: #778873;
     color: black;
     text-decoration: none;
     overflow: hidden;
@@ -62,11 +44,7 @@ body{
 }
 
 .nav-button:hover{
-    background-color: aqua;
-}
-
-.sign-in:hover{
-    background-color: red;
+    background-color: #5A827E;
 }
 
 .nav-button.hide{
@@ -119,20 +97,16 @@ body{
     margin-bottom: 30px;
 }
 
-.row4{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-}
-
 .galleryitem{
-    border: 4px solid yellow;
-    background-color: orange;
+    border: 4px solid #31694E;
+    background-color: #658C58;
     border-radius: 15%;
     width: 29%;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 20x;
+    max-height: min-content;
 }
 
 .footer{
@@ -143,6 +117,187 @@ body{
     margin-right: -7px;
     margin-bottom: -5px;
     margin-top: 30px;
-    background-color: green;
+    background-color: #84AE92;
+    text-align: center;
+}
+
+.displaypic {
+    width: 400px;
+    height: 300px;
+}
+
+.fish_img {
+    display: center;
+    text-align: center;
+}
+
+.titletext {
+    font-family: "Libre Baskerville";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 200px;
+}
+
+.bio {
+    font-family: Titillium Web;
+    text-align: center;
+}
+
+.biopic {
+    width: 35%;
+}
+
+.biotext {
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.animal-button{
+    color: black;
+    text-decoration: none;
+    background-color: #778873;
+    padding: 5px;
+    border-radius: 20%;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.animal-button:hover{
+    background-color: #5A827E;
+}
+
+.description{
+    font-size: 20px;
+    text-align: center;
+}
+
+.carousel{
+    display: flex; 
+    justify-content: center;
+}
+
+.carousel-image{
+    text-align: center;
+}
+
+.gallerypic{
+    width: 80%;
+    height: 50%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.gallerycontainer {
+    display: flex;
+}
+
+.gallerycolumn {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.galleryrow1 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.galleryrow2 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.galleryrow3 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.galleryimg {
+    width: 350px;
+    height: 200px;
+    border: 4px solid #537D5D;
+    border-radius: 5%;
+}
+
+#gallerytitle {
+    justify-content: center;
+}
+
+.factcontainer {
+    display:flex;
+    width: 100%;
+}
+
+.factcolumn {
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.factrow1 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border: 4px solid #73946B;
+    border-radius: 80%;
+    background-color: #9EBC8A;
+    padding: 10px;
+    text-align: center;
+}
+
+.factrow2 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: right;
+    border: 4px solid #73946B;
+    border-radius: 80%;
+    background-color: #9EBC8A;
+    padding: 10px;
+    text-align: center;
+}
+
+.factrow3 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border: 4px solid #73946B;
+    border-radius: 80%;
+    background-color: #9EBC8A;
+    padding: 10px;
+    text-align: center;
+}
+
+.factrow4 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: right;
+    border: 4px solid #73946B;
+    border-radius: 80%;
+    background-color: #9EBC8A;
+    padding: 10px;
+    text-align: center;
+}
+
+.factrow5 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border: 4px solid #73946B;
+    border-radius: 80%;
+    background-color: #9EBC8A;
+    padding: 10px;
     text-align: center;
 }
